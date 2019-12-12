@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlueZipHack", "GlueZipHack\GlueZipHack.csproj", "{BB13A720-5D34-4BBB-82F2-EEB83E401B94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GZHIoc", "GZHIoc\GZHIoc.csproj", "{6E78628E-556E-42DF-A0CF-81CCE25CD18F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB13A720-5D34-4BBB-82F2-EEB83E401B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB13A720-5D34-4BBB-82F2-EEB83E401B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB13A720-5D34-4BBB-82F2-EEB83E401B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB13A720-5D34-4BBB-82F2-EEB83E401B94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E78628E-556E-42DF-A0CF-81CCE25CD18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E78628E-556E-42DF-A0CF-81CCE25CD18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E78628E-556E-42DF-A0CF-81CCE25CD18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E78628E-556E-42DF-A0CF-81CCE25CD18F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC3865D9-E5FA-479E-A985-B2DE1A5E01B6}
+	EndGlobalSection
+EndGlobal

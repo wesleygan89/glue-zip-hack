@@ -3,3 +3,9 @@
 ################################################################################
 
 /GlueZipHack/.vs/GlueZipHack/v16/Server/sqlite3
+/GlueZipHack/GlueZipHack/bin/Debug/netcoreapp3.0
+/GlueZipHack/GlueZipHack/obj/Debug/netcoreapp3.0
+/GlueZipHack/GlueZipHack/obj
+/GlueZipHack/GZHIoc/obj/Debug/netstandard2.0
+/GlueZipHack/GZHIoc/obj
+/GlueZipHack/GZHIoc/bin/Debug/netstandard2.0
