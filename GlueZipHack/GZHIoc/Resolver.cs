@@ -5,11 +5,15 @@ namespace GZHIoc
 	public class Resolver
 	{
 
-		private readonly ConcurrentDictionary<Type, object> typeToCreator
+		private ConcurrentDictionary<Type, object> typeToCreator
 					   = new ConcurrentDictionary<Type, object>();
-		public void Register<T>(Func<T> func)
+		public void Register<T>(Func<T> func, Func<Func<T>, Func<T>> lifeTimeTypeFunc =  null)
 		{
-			typeToCreator.TryAdd(typeof(T), func);
+			if (lifeTimeTypeFunc==null)
+			{
+				lifeTimeTypeFunc = LifeTimeType.TransientFunc;
+			}
+			typeToCreator.TryAdd(typeof(T), lifeTimeTypeFunc(func));
 		}
 
 		public T Create<T>()
